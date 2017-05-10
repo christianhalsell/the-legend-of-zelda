@@ -1,0 +1,14 @@
+canvas {
+  display: block;
+  margin: auto;
+  background: url('../images/dungeons_map_x2.png') no-repeat -1536px -2464px;
+}
+
+.link-walking {
+  background-image: url('../images/link-test.gif') no-repeat 0 0;
+}
+
+.red {
+  color: lime;
+  border: 1px solid red
+}

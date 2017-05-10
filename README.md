@@ -1,2 +1,3 @@
-# the-legend-of-zelda
-The Legend of Zelda with Canvas
+# The Legend of Zelda
+
+The Legend of Zelda, made with Canvas and JavaScript.
