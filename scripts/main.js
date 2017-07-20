@@ -1,3 +1,5 @@
+// TODO: use gulp for browserify
+// TODO: animage sprite: https://joshondesign.com/p/books/canvasdeepdive/examples/spriteanim.html <= HERE!!!!!!!
 // TODO: animage sprite: https://gamedevelopment.tutsplus.com/tutorials/an-introduction-to-spritesheet-animation--gamedev-13099
 // TODO: dungeon music: https://www.youtube.com/watch?v=7bx-eThynd8
 //                      https://www.youtube.com/watch?v=yO_1ByUPbws
@@ -176,8 +178,8 @@ function draw() {
   collision = false;
 
   // TODO: Set-up top of doorways
-  context.fillStyle = 'rgba(255, 0, 0, 1)';
-  context.fillRect(0, 0, 512, 36);
+  //context.fillStyle = 'rgba(255, 0, 0, 1)';
+  //context.fillRect(0, 0, 512, 36);
 }
 
 function onKeyDown(e) {
@@ -230,7 +232,7 @@ function collisionDetect() {
         block_x + block_w <= obstX || // left?
         block_x >= obstX + obstW || // right?
         block_y + block_h <= obstY || // bottom?
-        block_y + 10 >= obstY + obstH // top (+10 to give Link some head room)
+        block_y + 14 >= obstY + obstH // top (+14 to give Link some head room)
       ) {
 
     } else {
